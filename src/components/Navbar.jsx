@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="flex items-center gap-6">
             {[
               ["About", "about"],
-              ["Course", "course"],
+              ["Courses", "course"],
               ["Curriculum", "curriculum"],
               ["Careers", "careers"],
               ["Apply", "apply"],
@@ -60,7 +60,7 @@ const Navbar = () => {
             <Phone className="w-3.5 h-3.5" />
             Call
           </a>
-          <button onClick={() => setIsOpen(!isOpen)} style={{ color: 'white' }}>
+          <button onClick={() => setIsOpen(!isOpen)} style={{ color: '#906B3A' }} aria-label="Menu">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
         <div className="md:hidden border-t px-4 py-6 space-y-4" style={{ borderColor: '#906B3A', backgroundColor: '#2C2521' }}>
           {[
             ["About", "about"],
-            ["Course", "course"],
+            ["Courses", "course"],
             ["Curriculum", "curriculum"],
             ["Careers", "careers"],
             ["Apply", "apply"],

@@ -8,6 +8,7 @@ const applicants = [
   "Beauticians upgrading skills",
   "Housewives restarting career",
   "Anyone passionate about hair styling",
+  "No prior experience required",
 ];
 
 const careers = [
@@ -31,13 +32,10 @@ const WhoCanApply = () => (
           transition={{ duration: 0.8 }}
         >
           <p className="font-inter font-bold text-[10px] tracking-[0.5em] uppercase mb-2" style={{ color: '#906B3A' }}>Eligibility</p>
-          <h2 className="font-playfair text-4xl md:text-5xl font-medium mb-1 leading-tight" style={{ color: '#2C2521' }}>
+          <h2 className="font-playfair text-4xl md:text-5xl font-medium mb-1 leading-tight mb-2" style={{ color: '#2C2521' }}>
             Who Can <span className="italic" style={{ color: '#906B3A' }}>Apply?</span>
           </h2>
-          {/* Reduced gap significantly under the subtitle to match editorial look */}
-          <p className="font-inter text-[10px] uppercase tracking-widest mb-6" style={{ color: '#7C716A' }}>
-            No prior experience required.
-          </p>
+          
           
           {/* Tightened space between bullet points */}
           <div className="space-y-4">
